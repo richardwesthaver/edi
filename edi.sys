@@ -1,0 +1,5 @@
+;;; edi/edi.sys --- Edi Sytem Definitions
+(defsys :edi
+  :require (:core)
+  :components ((:file "pkg")
+               (:file "cli")))
